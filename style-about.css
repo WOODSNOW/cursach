@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+.wrapper {
+  width: 90vw;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #FFFAF5;
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  gap: 2rem;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 11rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-text {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: #4D2900;
+  text-align: center;
+  border-bottom: 2px solid #4D2900;
+}
+
+.desc-text {
+  color: #241400;
+  font-size: 13px;
+}
+
+.img-books {
+  fill: yellow;
+}
+
+.no-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.navigation, .search-form, .actions {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #241400;
+  font-size: 12px;
+}
+
+.search-form {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 3px;
+  padding-top: 1px;
+}
+
+.actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.actions img {
+  height: 38px;
+}
+
+.price {
+  font-size: 14px;
+}
+
+.total-cost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 14px;
+}
+
+.arrow-down {
+  display: block;
+  width: 9px;
+  height: 6px;
+  background-image: url("../../assets/svg/arrow-down.svg");
+  background-repeat: no-repeat;
+}
+
+.text--white {
+  color: white;
+  border-color: white;
+}
+
+.about {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.act-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.act-item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.act-count {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.act-desc {
+  font-size: 13px;
+}
+
+.delivery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+.footer-container {
+  padding: 24px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+  background-color: #391F00;
+  color: #FFF;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.f-main-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.f-link {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 13px;
+}
+
+.f-item {
+  margin-top: 1rem;
+}
+
+.f-list {
+  list-style: none;
+}
+
+.head-group {
+  font-size: 18px;
+}
+
+.call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.call-head {
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.call-button {
+  font-size: 12px;
+  padding: 8px 4px;
+  color: #E16A00;
+  border: 1px solid #E16A00;
+}
+
+.call a {
+  text-decoration: none;
+}
+
+.main-conteiner {
+  padding: 50px 0;
+}
+/*# sourceMappingURL=style-about.css.map */

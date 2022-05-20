@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GOODS>
+<BOOK>
+    <TITLE>Порядок в хаосе</TITLE>
+    <AUTHOR>Константин Коптелов</AUTHOR>
+    <PRICE>30 BYN</PRICE>
+    <IMAGE>1.svg</IMAGE>
+    <DESCR>Описание книжек будет сделано попозже</DESCR>
+</BOOK>
+<BOOK>
+    <TITLE>Смарагдова книга</TITLE>
+    <AUTHOR>Керстин Гир</AUTHOR>
+    <PRICE>25 BYN</PRICE>
+    <IMAGE>2.svg</IMAGE>
+    <DESCR>Описание книжек будет сделано попозже</DESCR>
+</BOOK>
+<BOOK>
+    <TITLE>Зося з вулицы Котячой</TITLE>
+    <AUTHOR>Агнешка Тишка</AUTHOR>
+    <PRICE>9 BYN</PRICE>
+    <IMAGE>3.svg</IMAGE>
+    <DESCR>Описание книжек будет сделано попозже</DESCR>
+</BOOK>
+<BOOK>
+    <TITLE>Мотиватор</TITLE>
+    <AUTHOR>Наталия Золотова</AUTHOR>
+    <PRICE>21 BYN</PRICE>
+    <IMAGE>4.svg</IMAGE>
+    <DESCR>Описание книжек будет сделано попозже</DESCR>
+</BOOK>
+<BOOK>
+    <TITLE>Без маски</TITLE>
+    <AUTHOR>Михаил Бурняшев</AUTHOR>
+    <PRICE>78 BYN</PRICE>
+    <IMAGE>5.svg</IMAGE>
+    <DESCR>Описание книжек будет сделано попозже</DESCR>
+</BOOK>
+</GOODS>

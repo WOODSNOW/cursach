@@ -1,0 +1,35 @@
+.logo {
+  display: flex;
+  width: 11rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-text {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: $color-primary;
+  text-align: center;
+  border-bottom: 2px solid $color-primary;
+}
+
+.desc-text {
+  color: $color-secondary;
+  font-size: 13px;
+}
+
+.img-books {
+  fill: yellow;
+}
+
+.no-link {
+  text-decoration: none;
+  color: inherit;
+}

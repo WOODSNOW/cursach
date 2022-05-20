@@ -1,0 +1,34 @@
+@import '../baseline/variable';
+.catalog {
+    margin: 165px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.catalog-header {
+    font-weight: 25px;
+}
+
+.catalog__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.4rem;
+}
+
+.item__catalog {
+    padding: 1rem;
+    background-color: $color-fwhite;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+}

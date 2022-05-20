@@ -1,0 +1,19 @@
+@import '../baseline/variable';
+.wrapper {
+    width: 90vw;
+    height: 100%;
+    margin: 0 auto;
+    background-color: $color-milk;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+    gap: 2rem;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  }

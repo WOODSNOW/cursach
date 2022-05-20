@@ -1,0 +1,30 @@
+@import '../baseline/variable';
+@import '../components/button';
+.start {
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.start-img {
+    width: 350px;
+}
+
+.start-text {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.start-header {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.start-desc {
+    font-size: 13px;
+}
