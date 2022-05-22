@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style_login.css">
+    <title>LogIn</title>
+</head>
+<body>
+     <div id="log_in" class="tabcontent">
+        <form class="box" action="login" method='POST' style="width:100%; height:100%;">
+            <h1>login</h1>
+            <input class="input" type="text" name="" placeholder="Введите имя пользователя" id="username">
+            <input class="input" type="password" name="" placeholder="Введите пароль" id="password">
+            <input class="input" type="submit" name="" value="Войти" onclick="al()">
+        </form>
+    </div>
+            
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script>
+    function validate(){
+        var username=document.getElementById("username").value;
+        var password=document.getElementById("password").value;
+        if(username=="admin" && password=="user"){
+            alert("login succesfully");
+            return false;
+        }
+        else{
+            alert("login failed")
+        }
+    }
+
+    function al(){
+        window.open('index.html');
+        window.close('');
+    }
+</script>
+</body>
+</html>
